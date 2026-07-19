@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+database:
+  url: "jdbc:postgresql://localhost:5432/platform_test_db"
+  username: "test_user"
+  password: "test_password"
+  maximumPoolSize: 2
+  minimumIdle: 1
+
+security:
+  encryptionKey: "test_secret_key_16"
+  tokenSecret: "test_token_secret"
+
+metrics:
+  enabled: false

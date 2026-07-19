@@ -1,0 +1,8 @@
+database:
+  maximumPoolSize: 50
+  minimumIdle: 10
+  connectionTimeoutMs: 15000
+
+metrics:
+  enabled: true
+  stepSeconds: 15

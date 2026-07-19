@@ -1,0 +1,6 @@
+{
+  "name": "AI Automation Platform Blueprint",
+  "description": "An interactive, elegant, and enterprise-grade system architecture blueprint explorer for the open-source AI Automation Platform and AI Content Factory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

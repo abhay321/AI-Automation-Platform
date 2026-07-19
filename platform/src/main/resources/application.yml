@@ -1,0 +1,52 @@
+server:
+  port: 3000
+  host: "0.0.0.0"
+  contextPath: ""
+  requestTimeoutMs: 30000
+
+database:
+  url: "jdbc:postgresql://localhost:5432/platform_db"
+  driver: "org.postgresql.Driver"
+  username: "platform_admin"
+  password: "secret_password"
+  maximumPoolSize: 10
+  minimumIdle: 2
+  idleTimeoutMs: 600000
+  connectionTimeoutMs: 30000
+
+redis:
+  host: "localhost"
+  port: 6379
+  timeoutMs: 3000
+  database: 0
+
+rabbitmq:
+  host: "localhost"
+  port: 5672
+  username: "platform_user"
+  password: "mq_password"
+  virtualHost: "/"
+  connectionTimeoutMs: 30000
+
+minio:
+  endpoint: "http://localhost:9000"
+  accessKey: "minio_admin"
+  secretKey: "minio_password"
+  bucketName: "platform-assets"
+  createBucketIfNotExist: true
+
+qdrant:
+  host: "localhost"
+  port: 6333
+  grpcPort: 6334
+  useSecureConnection: false
+
+security:
+  encryptionKey: "supersecret_key_16" # Must be at least 16 chars
+  tokenSecret: "jwt_signature_secret_key_for_platform"
+  tokenExpirationMinutes: 1440
+
+metrics:
+  enabled: true
+  prometheusEndpoint: "/metrics"
+  stepSeconds: 60

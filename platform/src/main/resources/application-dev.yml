@@ -1,0 +1,7 @@
+server:
+  port: 3000
+
+database:
+  url: "jdbc:postgresql://localhost:5432/platform_db"
+  username: "platform_admin"
+  password: "secret_password"
