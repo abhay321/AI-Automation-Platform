@@ -16,8 +16,8 @@ The core, highly performant, non-blocking JVM chassis hosting configuration, orc
 | **Observability** | ✅ Completed | v1.0.0-M1 | Unified logging, metrics telemetry, distributed tracing context propagation. |
 | **Runtime Kernel** | ✅ Completed | v1.0.0-M1 | Boot phases, Topological DAG execution manager, failure recovery. |
 | **Event Bus** | ✅ Completed | v1.0.0-M1 | Coroutine-native, type-safe, transactional outbox-ready event broker. |
-| **Runtime Engine** | ⏳ In Progress | v1.0.0-M2 | Concrete execution mechanics and process runner. |
-| **Dependency Injection** | ⏳ Planned | v1.0.0-M2 | Lightweight annotation scanner and internal IOC compiler. |
+| **Runtime Engine** | ✅ Completed | v1.0.0-M2 | Concrete execution mechanics and process runner. |
+| **Dependency Injection** | ✅ Completed | v1.0.0-M2 | Lightweight annotation scanner and internal IOC compiler. |
 | **Health Check** | ⏳ Planned | v1.0.0-M2 | Kubernetes-compatible Liveness, Readiness, and Health Checks. |
 | **Scheduler** | ⏳ Planned | v1.0.0-M3 | Bounded worker pools and resilient job scheduling. |
 | **Resource Manager** | ⏳ Planned | v1.0.0-M3 | Bounded pool lifecycles (Hikari, Redis, RabbitMQ, MinIO). |
